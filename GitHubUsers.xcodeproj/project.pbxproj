@@ -18,6 +18,7 @@
 		639E833216C1E83A00B7A1DC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639E833116C1E83A00B7A1DC /* Default-568h@2x.png */; };
 		639E833516C1E83A00B7A1DC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639E833316C1E83A00B7A1DC /* MainStoryboard.storyboard */; };
 		639E833816C1E83A00B7A1DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639E833716C1E83A00B7A1DC /* ViewController.m */; };
+		639E834316C1E93000B7A1DC /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639E834216C1E93000B7A1DC /* MainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		639E833416C1E83A00B7A1DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		639E833616C1E83A00B7A1DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		639E833716C1E83A00B7A1DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		639E834116C1E93000B7A1DC /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		639E834216C1E93000B7A1DC /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				639E833616C1E83A00B7A1DC /* ViewController.h */,
 				639E833716C1E83A00B7A1DC /* ViewController.m */,
 				639E832216C1E83A00B7A1DC /* Supporting Files */,
+				639E834116C1E93000B7A1DC /* MainTableViewController.h */,
+				639E834216C1E93000B7A1DC /* MainTableViewController.m */,
 			);
 			path = GitHubUsers;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				639E832816C1E83A00B7A1DC /* main.m in Sources */,
 				639E832C16C1E83A00B7A1DC /* AppDelegate.m in Sources */,
 				639E833816C1E83A00B7A1DC /* ViewController.m in Sources */,
+				639E834316C1E93000B7A1DC /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
